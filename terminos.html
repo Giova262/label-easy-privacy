@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Terms and Conditions for Label Easy.">
-  <title>Terms & Conditions - Label Easy</title>
+  <meta name="description" content="Terms and Conditions for Label Easy. Términos y Condiciones de Label Easy.">
+  <title>Terms &amp; Conditions - Label Easy</title>
   <style>
     * {
       box-sizing: border-box;
@@ -110,6 +109,26 @@
         flex-wrap: wrap;
       }
     }
+
+    h3 {
+      color: #253047;
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+
+    .language-links a {
+      margin-left: 12px;
+    }
+
+    article + article {
+      border-top: 1px solid #e5e9f0;
+      margin-top: 40px;
+      padding-top: 35px;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
   </style>
 </head>
 
@@ -118,157 +137,316 @@
 <header>
   <div class="header-content">
     <div class="brand">Label Easy</div>
-    <select id="language" aria-label="Select language">
-      <option value="en">English</option>
-      <option value="es">Español</option>
-    </select>
+    <nav aria-label="Language / Idioma">
+      <select id="language" aria-label="Select language / Seleccionar idioma" hidden>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+      </select>
+      <noscript>
+        <span class="language-links">
+          <a href="#en" lang="en">English</a>
+          <a href="#es" lang="es">Español</a>
+        </span>
+      </noscript>
+    </nav>
   </div>
 </header>
 
-<main id="content"></main>
+<main>
+  <article id="en" lang="en" data-lang="en" data-title="Terms &amp; Conditions - Label Easy">
+    <h1>Terms &amp; Conditions</h1>
+    <p class="updated">Last updated: November 10, 2026</p>
+
+    <p>Welcome to Label Easy. These Terms and Conditions ("Terms") govern your use of the Label Easy mobile application ("the application"). By downloading, accessing, or using the application, you agree to these Terms. If you do not agree, please do not use the application.</p>
+
+    <section>
+      <h2>1. About Label Easy</h2>
+      <p>Label Easy is an application designed to help users create, customize, organize, export, and print labels for personal or business purposes, including text, prices, images, barcodes, and QR codes.</p>
+      <p>Label Easy is developed and published by Josue Giovanni Valdivia Urrutia, an individual developer based in Argentina ("the developer", "we").</p>
+      <p>Label Easy is a design tool. It does not check, certify, or register the information you put on a label.</p>
+    </section>
+
+    <section>
+      <h2>2. Acceptable Use</h2>
+      <p>You may use Label Easy on your own devices, for lawful purposes and in accordance with these Terms.</p>
+      <p>You must not use the application to create or distribute content that is illegal, fraudulent, misleading, defamatory, or infringes the rights of others. This includes labels intended to deceive, such as counterfeit product labels, false prices, or barcodes that impersonate another company's products.</p>
+      <p>You are responsible for the content you create, import, export, print, or share using the application.</p>
+    </section>
+
+    <section>
+      <h2>3. User Content and Intellectual Property</h2>
+      <p>The text, images, designs, and other content you create or import into Label Easy remain yours. They are stored on your device and are not sent to the developer.</p>
+      <p>You must ensure that you have the necessary rights or permissions to use any third-party content, including images, logos, trademarks, and other protected material.</p>
+      <p>Label Easy and its original software, design, branding, and associated materials are protected by applicable intellectual property laws. These Terms do not transfer ownership of the application or its intellectual property to you. Open-source components included in the application are governed by their own licenses.</p>
+    </section>
+
+    <section>
+      <h2>4. Barcodes and QR Codes</h2>
+      <p>Label Easy can draw barcodes in the EAN-13, EAN-8, UPC-A, Code 128, and Code 39 formats, and QR codes, from the content that you enter.</p>
+      <p><strong>Label Easy does not assign, issue, register, or license product numbers.</strong> Numbers used in EAN and UPC barcodes for products sold in commerce (GTINs) are assigned through GS1 and its member organizations. Entering a number in the application does not give you any right to use it, and does not register it anywhere.</p>
+      <p>You are solely responsible for making sure that the codes you print are legitimate: that you are entitled to use each number, that it identifies the correct product, and that it meets the requirements of the retailers, marketplaces, carriers, or authorities you deal with.</p>
+      <p>The application checks only the basic format of the content, such as its length, its permitted characters, and the check digit. It cannot check whether a code is correct for your product or whether a link in a QR code is safe or works.</p>
+      <p><strong>Always test printed labels with a scanner before you use them.</strong> Whether a printed code can be read depends on the printer, the print resolution, the paper or label material, the size and colors of the code, and the scanner. We do not guarantee that a code will scan in every situation.</p>
+    </section>
+
+    <section>
+      <h2>5. Prices, Product Information, and Shipping Labels</h2>
+      <p>You are solely responsible for the accuracy and legality of everything shown on your labels, including prices, currencies, units, product names and descriptions, batch or lot numbers, best-before and expiry dates, ingredients or allergens, inventory data, and names and addresses.</p>
+      <p>Sample designs and templates contain example content only. Replace it with your own verified information before printing.</p>
+      <p>Many countries have rules on price display, product and food labelling, and consumer information. Label Easy does not check your labels against those rules, and it is your responsibility to comply with them.</p>
+      <p>Shipping and address labels designed with Label Easy are your own designs. They are not official carrier labels, do not include postage or tracking, and may not meet the requirements of a particular postal service or carrier.</p>
+    </section>
+
+    <section>
+      <h2>6. Exports, Printing, and Compatibility</h2>
+      <p>Label Easy lets you export labels as PNG or PDF files and print them through the Android printing system.</p>
+      <p>Printing results may vary depending on your device, printer, printer driver or print service, paper or label stock, margins, scaling settings, and other external factors. Dimensions, colors, alignment on label sheets, and print quality may differ from what you see on screen.</p>
+      <p>We do not guarantee exact dimensions, colors, alignment, or printing results on every device or printer, or compatibility with any particular printer model. Print a test page and check the final output before printing in quantity or using labels for commercial or other important purposes. We are not responsible for wasted paper, ink, or label stock.</p>
+    </section>
+
+    <section>
+      <h2>7. Local Storage, Backups, and Loss of Projects</h2>
+      <p>Your projects, templates, and images are stored only on your device. There are no user accounts and the developer keeps no copy of your work, so <strong>the developer cannot restore projects that are lost.</strong></p>
+      <p>Projects may be lost if you uninstall the application, clear its data, reset or lose your device, or if the device fails. The Android backup feature, when you have it turned on, may keep a copy of your projects in your Google account, but it is operated by Google and we cannot guarantee that it will be available or complete.</p>
+      <p>You are responsible for keeping your own copies of work that matters to you, for example by exporting your labels as PDF or PNG files.</p>
+    </section>
+
+    <section>
+      <h2>8. Advertisements</h2>
+      <p>Label Easy displays advertisements provided by a third-party advertising service, Google AdMob. Advertising is what allows the application to be offered free of charge.</p>
+      <p>Google and its partners may collect or process certain information to show these advertisements, in accordance with their own privacy policies and with the choices you make. See the <a href="./index.html#en">Privacy Policy</a> for details and for your options.</p>
+      <p>We do not control the content of third-party advertisements, and the display of an advertisement does not constitute an endorsement of the advertised product or service. Any dealings you have with an advertiser are between you and that advertiser.</p>
+    </section>
+
+    <section>
+      <h2>9. Privacy</h2>
+      <p>Your use of Label Easy is also governed by our Privacy Policy, which explains how information is handled within the application and through third-party services.</p>
+      <p>Please read our <a href="./index.html#en">Privacy Policy</a> for more information.</p>
+    </section>
+
+    <section>
+      <h2>10. Trademarks and No Affiliation</h2>
+      <p>QR Code is a registered trademark of DENSO WAVE INCORPORATED in Japan and in other countries.</p>
+      <p>Label Easy is an independent application. It is not affiliated with, sponsored by, or endorsed by GS1, DENSO WAVE, any postal service or shipping carrier, or any printer manufacturer. Names of standards, companies, and products are mentioned only to describe what the application can do, and belong to their respective owners.</p>
+    </section>
+
+    <section>
+      <h2>11. Availability and Changes</h2>
+      <p>We may update, modify, suspend, or discontinue certain features of Label Easy at any time, when reasonably necessary, including for maintenance, security, technical, or legal reasons.</p>
+      <p>We do not guarantee that the application or all its features will always be available, uninterrupted, or error-free.</p>
+    </section>
+
+    <section>
+      <h2>12. Disclaimer of Warranties</h2>
+      <p>Label Easy is provided on an "as is" and "as available" basis, to the extent permitted by applicable law.</p>
+      <p>We make no guarantee that the application will meet every user's specific requirements, that it will operate without interruptions or errors, or that labels and codes created with it will be suitable for a particular purpose.</p>
+    </section>
+
+    <section>
+      <h2>13. Limitation of Liability</h2>
+      <p>To the extent permitted by applicable law, Label Easy and its developer shall not be liable for indirect, incidental, special, or consequential damages arising from the use of, or inability to use, the application. This includes, for example, lost sales or profits, loss of projects or data, labels or codes that are incorrect or cannot be scanned, mislabelled goods, failed or delayed deliveries, reprinting costs, and penalties resulting from the content of your labels.</p>
+      <p>These limits apply only as far as the law that applies to you allows. They do not apply to damage caused intentionally or by gross negligence, or to any other liability that cannot be limited or excluded by law.</p>
+    </section>
+
+    <section>
+      <h2>14. Consumer Rights</h2>
+      <p>If you use Label Easy as a consumer, you keep all the rights that the mandatory consumer protection laws of your country of residence give you. Nothing in these Terms excludes, limits, or waives those rights, and if any part of these Terms conflicts with them, those rights prevail.</p>
+      <p>If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions continue to apply.</p>
+    </section>
+
+    <section>
+      <h2>15. Changes to These Terms</h2>
+      <p>We may revise these Terms and Conditions from time to time. Updated versions will be published on this page with a revised "Last updated" date.</p>
+      <p>Your continued use of Label Easy after changes become effective constitutes acceptance of the revised Terms, to the extent permitted by applicable law.</p>
+    </section>
+
+    <section>
+      <h2>16. Governing Law</h2>
+      <p>These Terms shall be interpreted in accordance with the applicable laws of Argentina, without prejudice to mandatory consumer protection provisions or other rights that may apply in your jurisdiction.</p>
+    </section>
+
+    <section>
+      <h2>17. Contact</h2>
+      <p>If you have questions about these Terms and Conditions, you can contact the developer, Josue Giovanni Valdivia Urrutia (Argentina), at:</p>
+      <p><strong>Email:</strong> <a href="mailto:voxa.app.support@gmail.com">voxa.app.support@gmail.com</a></p>
+    </section>
+  </article>
+
+  <article id="es" lang="es" data-lang="es" data-title="Términos y Condiciones - Label Easy">
+    <h1>Términos y Condiciones</h1>
+    <p class="updated">Última actualización: 10 de noviembre de 2026</p>
+
+    <p>Bienvenido a Label Easy. Estos Términos y Condiciones ("Términos") regulan el uso de la aplicación móvil Label Easy ("la aplicación"). Al descargar, acceder o utilizar la aplicación, aceptas estos Términos. Si no estás de acuerdo, te pedimos que no utilices la aplicación.</p>
+
+    <section>
+      <h2>1. Acerca de Label Easy</h2>
+      <p>Label Easy es una aplicación diseñada para ayudar a los usuarios a crear, personalizar, organizar, exportar e imprimir etiquetas para uso personal o comercial, con textos, precios, imágenes, códigos de barras y códigos QR.</p>
+      <p>Label Easy es desarrollada y publicada por Josue Giovanni Valdivia Urrutia, desarrollador individual (persona física) con sede en Argentina ("el desarrollador", "nosotros").</p>
+      <p>Label Easy es una herramienta de diseño. No comprueba, certifica ni registra la información que pones en una etiqueta.</p>
+    </section>
+
+    <section>
+      <h2>2. Uso permitido</h2>
+      <p>Puedes utilizar Label Easy en tus propios dispositivos, para fines legales y de acuerdo con estos Términos.</p>
+      <p>No debes utilizar la aplicación para crear o distribuir contenido ilegal, fraudulento, engañoso, difamatorio o que infrinja los derechos de terceros. Esto incluye las etiquetas destinadas a engañar, como etiquetas de productos falsificados, precios falsos o códigos de barras que suplanten productos de otra empresa.</p>
+      <p>Eres responsable del contenido que crees, importes, exportes, imprimas o compartas mediante la aplicación.</p>
+    </section>
+
+    <section>
+      <h2>3. Contenido del usuario y propiedad intelectual</h2>
+      <p>Los textos, imágenes, diseños y demás contenido que crees o importes en Label Easy siguen siendo tuyos. Se guardan en tu dispositivo y no se envían al desarrollador.</p>
+      <p>Debes asegurarte de contar con los derechos o permisos necesarios para utilizar contenido de terceros, incluidas imágenes, logotipos, marcas registradas y otros materiales protegidos.</p>
+      <p>Label Easy y su software original, diseño, marca y materiales asociados están protegidos por las leyes de propiedad intelectual aplicables. Estos Términos no te transfieren la propiedad de la aplicación ni de sus derechos de propiedad intelectual. Los componentes de código abierto incluidos en la aplicación se rigen por sus propias licencias.</p>
+    </section>
+
+    <section>
+      <h2>4. Códigos de barras y códigos QR</h2>
+      <p>Label Easy puede dibujar códigos de barras en los formatos EAN-13, EAN-8, UPC-A, Code 128 y Code 39, y códigos QR, a partir del contenido que tú introduces.</p>
+      <p><strong>Label Easy no asigna, emite, registra ni licencia números de producto.</strong> Los números que se usan en los códigos EAN y UPC de productos que se venden en el comercio (GTIN) se asignan a través de GS1 y sus organizaciones miembro. Introducir un número en la aplicación no te da ningún derecho a usarlo ni lo registra en ningún lugar.</p>
+      <p>Eres el único responsable de que los códigos que imprimas sean legítimos: de que tengas derecho a usar cada número, de que identifique el producto correcto y de que cumpla los requisitos de los comercios, plataformas de venta, transportistas o autoridades con los que trates.</p>
+      <p>La aplicación solo comprueba el formato básico del contenido, como su longitud, los caracteres permitidos y el dígito de control. No puede comprobar si un código es correcto para tu producto ni si el enlace de un código QR es seguro o funciona.</p>
+      <p><strong>Prueba siempre las etiquetas impresas con un escáner antes de usarlas.</strong> Que un código impreso pueda leerse depende de la impresora, la resolución de impresión, el papel o material de la etiqueta, el tamaño y los colores del código, y el escáner. No garantizamos que un código pueda escanearse en todas las situaciones.</p>
+    </section>
+
+    <section>
+      <h2>5. Precios, información de productos y etiquetas de envío</h2>
+      <p>Eres el único responsable de la exactitud y la legalidad de todo lo que aparezca en tus etiquetas, incluidos precios, monedas, unidades, nombres y descripciones de productos, números de lote, fechas de consumo preferente y de vencimiento, ingredientes o alérgenos, datos de inventario, y nombres y direcciones.</p>
+      <p>Los diseños de ejemplo y las plantillas contienen únicamente contenido de muestra. Sustitúyelo por tu propia información verificada antes de imprimir.</p>
+      <p>Muchos países tienen normas sobre la indicación de precios, el etiquetado de productos y alimentos, y la información al consumidor. Label Easy no comprueba tus etiquetas con respecto a esas normas, y cumplirlas es tu responsabilidad.</p>
+      <p>Las etiquetas de envío y de dirección diseñadas con Label Easy son diseños tuyos. No son etiquetas oficiales de un transportista, no incluyen franqueo ni seguimiento, y pueden no cumplir los requisitos de un servicio postal o transportista concreto.</p>
+    </section>
+
+    <section>
+      <h2>6. Exportación, impresión y compatibilidad</h2>
+      <p>Label Easy te permite exportar etiquetas como archivos PNG o PDF e imprimirlas mediante el sistema de impresión de Android.</p>
+      <p>Los resultados de impresión pueden variar según el dispositivo, la impresora, su controlador o servicio de impresión, el papel o las hojas de etiquetas, los márgenes, los ajustes de escala y otros factores externos. Las dimensiones, los colores, la alineación en las hojas de etiquetas y la calidad de impresión pueden diferir de lo que ves en pantalla.</p>
+      <p>No garantizamos dimensiones, colores, alineación ni resultados de impresión exactos en todos los dispositivos o impresoras, ni la compatibilidad con un modelo de impresora concreto. Imprime una página de prueba y comprueba el resultado final antes de imprimir en cantidad o de utilizar las etiquetas con fines comerciales u otros fines importantes. No somos responsables del papel, la tinta o las etiquetas desperdiciados.</p>
+    </section>
+
+    <section>
+      <h2>7. Almacenamiento local, copias de seguridad y pérdida de proyectos</h2>
+      <p>Tus proyectos, plantillas e imágenes se guardan únicamente en tu dispositivo. No hay cuentas de usuario y el desarrollador no conserva ninguna copia de tu trabajo, por lo que <strong>el desarrollador no puede restaurar proyectos perdidos.</strong></p>
+      <p>Los proyectos pueden perderse si desinstalas la aplicación, borras sus datos, restableces o pierdes el dispositivo, o si el dispositivo falla. La función de copia de seguridad de Android, cuando la tienes activada, puede conservar una copia de tus proyectos en tu cuenta de Google, pero la opera Google y no podemos garantizar que esté disponible ni que sea completa.</p>
+      <p>Eres responsable de conservar tus propias copias del trabajo que te importe, por ejemplo exportando tus etiquetas como archivos PDF o PNG.</p>
+    </section>
+
+    <section>
+      <h2>8. Publicidad</h2>
+      <p>Label Easy muestra anuncios proporcionados por un servicio publicitario de terceros, Google AdMob. La publicidad es lo que permite ofrecer la aplicación de forma gratuita.</p>
+      <p>Google y sus socios pueden recopilar o tratar determinada información para mostrar estos anuncios, de acuerdo con sus propias políticas de privacidad y con las opciones que elijas. Consulta la <a href="./index.html#es">Política de Privacidad</a> para conocer los detalles y tus opciones.</p>
+      <p>No controlamos el contenido de los anuncios de terceros. La aparición de un anuncio no constituye una recomendación ni aprobación del producto o servicio anunciado. Cualquier relación que tengas con un anunciante es entre tú y ese anunciante.</p>
+    </section>
+
+    <section>
+      <h2>9. Privacidad</h2>
+      <p>El uso de Label Easy también está sujeto a nuestra Política de Privacidad, que explica cómo se gestiona la información dentro de la aplicación y mediante servicios de terceros.</p>
+      <p>Consulta nuestra <a href="./index.html#es">Política de Privacidad</a> para obtener más información.</p>
+    </section>
+
+    <section>
+      <h2>10. Marcas y ausencia de afiliación</h2>
+      <p>QR Code es una marca registrada de DENSO WAVE INCORPORATED en Japón y en otros países.</p>
+      <p>Label Easy es una aplicación independiente. No está afiliada a GS1, a DENSO WAVE, a ningún servicio postal o transportista ni a ningún fabricante de impresoras, ni está patrocinada o avalada por ellos. Los nombres de estándares, empresas y productos se mencionan únicamente para describir lo que la aplicación puede hacer, y pertenecen a sus respectivos titulares.</p>
+    </section>
+
+    <section>
+      <h2>11. Disponibilidad y modificaciones</h2>
+      <p>Podemos actualizar, modificar, suspender o discontinuar determinadas funciones de Label Easy cuando sea razonablemente necesario, por motivos de mantenimiento, seguridad, cuestiones técnicas o legales.</p>
+      <p>No garantizamos que la aplicación o todas sus funciones estén siempre disponibles, funcionen sin interrupciones o estén libres de errores.</p>
+    </section>
+
+    <section>
+      <h2>12. Exclusión de garantías</h2>
+      <p>Label Easy se proporciona "tal como está" y según su disponibilidad, en la medida permitida por la legislación aplicable.</p>
+      <p>No garantizamos que la aplicación satisfaga todos los requisitos específicos de cada usuario, que funcione sin interrupciones o errores, ni que las etiquetas y los códigos creados con ella sean adecuados para un fin concreto.</p>
+    </section>
+
+    <section>
+      <h2>13. Limitación de responsabilidad</h2>
+      <p>En la medida permitida por la legislación aplicable, Label Easy y su desarrollador no serán responsables de daños indirectos, incidentales, especiales o consecuentes derivados del uso o la imposibilidad de utilizar la aplicación. Esto incluye, por ejemplo, la pérdida de ventas o beneficios, la pérdida de proyectos o datos, las etiquetas o códigos incorrectos o que no puedan escanearse, la mercancía mal etiquetada, las entregas fallidas o retrasadas, los costes de reimpresión y las sanciones derivadas del contenido de tus etiquetas.</p>
+      <p>Estos límites se aplican solo en la medida en que lo permita la ley que te sea aplicable. No se aplican a los daños causados de forma intencionada o por culpa grave, ni a ninguna otra responsabilidad que la ley no permita limitar o excluir.</p>
+    </section>
+
+    <section>
+      <h2>14. Derechos de los consumidores</h2>
+      <p>Si utilizas Label Easy como consumidor, conservas todos los derechos que te reconozcan las leyes obligatorias de protección al consumidor de tu país de residencia. Ninguna disposición de estos Términos excluye, limita o supone una renuncia a esos derechos y, si alguna parte de estos Términos entra en conflicto con ellos, prevalecen esos derechos.</p>
+      <p>Si alguna disposición de estos Términos se considera inválida o inaplicable, las demás disposiciones seguirán vigentes.</p>
+    </section>
+
+    <section>
+      <h2>15. Cambios en estos Términos</h2>
+      <p>Podemos modificar estos Términos y Condiciones periódicamente. Las versiones actualizadas se publicarán en esta página con una nueva fecha de actualización.</p>
+      <p>El uso continuado de Label Easy después de que los cambios entren en vigor implica la aceptación de los Términos revisados, en la medida permitida por la legislación aplicable.</p>
+    </section>
+
+    <section>
+      <h2>16. Legislación aplicable</h2>
+      <p>Estos Términos se interpretarán de acuerdo con las leyes aplicables de Argentina, sin perjuicio de las disposiciones obligatorias de protección al consumidor u otros derechos que puedan corresponder en tu jurisdicción.</p>
+    </section>
+
+    <section>
+      <h2>17. Contacto</h2>
+      <p>Si tienes preguntas sobre estos Términos y Condiciones, puedes comunicarte con el desarrollador, Josue Giovanni Valdivia Urrutia (Argentina), a través de:</p>
+      <p><strong>Correo electrónico:</strong> <a href="mailto:voxa.app.support@gmail.com">voxa.app.support@gmail.com</a></p>
+    </section>
+  </article>
+</main>
 
 <footer>
-  © 2026 Label Easy. All rights reserved.
-  <br>
-  <a href="./index.html">Privacy Policy</a>
+  <p lang="en" data-lang="en">
+    © 2026 Label Easy. All rights reserved.
+    <br>
+    <a href="./index.html#en">Privacy Policy</a>
+  </p>
+  <p lang="es" data-lang="es">
+    © 2026 Label Easy. Todos los derechos reservados.
+    <br>
+    <a href="./index.html#es">Política de Privacidad</a>
+  </p>
 </footer>
 
 <script>
-const translations = {
-  en: `
-    <h1>Terms & Conditions</h1>
-    <p class="updated">Last updated: November 4, 2026</p>
+// Without JavaScript both languages are shown, one after the other.
+(function () {
+  var KEY = "labelEasyLanguage";
+  var select = document.getElementById("language");
+  var titles = {};
+  ["en", "es"].forEach(function (lang) {
+    titles[lang] = document.getElementById(lang).getAttribute("data-title");
+  });
 
-    <p>Welcome to Label Easy. These Terms and Conditions govern your use of the Label Easy mobile application. By downloading, accessing, or using the application, you agree to these terms. If you do not agree, please do not use the application.</p>
+  function fromHash() {
+    var hash = location.hash.slice(1);
+    return titles[hash] ? hash : null;
+  }
+  function stored() {
+    try { return localStorage.getItem(KEY); } catch (e) { return null; }
+  }
+  function show(lang) {
+    var parts = document.querySelectorAll("[data-lang]");
+    for (var i = 0; i < parts.length; i++) {
+      parts[i].hidden = parts[i].getAttribute("data-lang") !== lang;
+    }
+    document.documentElement.lang = lang;
+    document.title = titles[lang];
+    select.value = lang;
+    try { localStorage.setItem(KEY, lang); } catch (e) { /* choice not remembered */ }
+  }
 
-    <h2>1. About Label Easy</h2>
-    <p>Label Easy is an application designed to help users create, customize, organize, and export labels for personal or business purposes.</p>
-    <p>The application provides tools for designing labels and preparing them for printing or sharing.</p>
+  var saved = stored();
+  var device = /^es\b/i.test(navigator.language || "") ? "es" : "en";
+  show(fromHash() || (titles[saved] ? saved : device));
+  select.hidden = false;
 
-    <h2>2. Acceptable Use</h2>
-    <p>You agree to use Label Easy only for lawful purposes and in accordance with these Terms.</p>
-    <p>You must not use the application to create or distribute content that is illegal, fraudulent, misleading, defamatory, or infringes the rights of others.</p>
-    <p>You are responsible for the content you create, import, export, print, or share using the application.</p>
-
-    <h2>3. User Content and Intellectual Property</h2>
-    <p>You retain responsibility for the text, images, designs, and other content you create or import into Label Easy.</p>
-    <p>You must ensure that you have the necessary rights or permissions to use any third-party content, including images, logos, trademarks, and other protected material.</p>
-    <p>Label Easy and its original software, design, branding, and associated materials are protected by applicable intellectual property laws. These Terms do not transfer ownership of the application or its intellectual property to you.</p>
-
-    <h2>4. Exports, Printing and Compatibility</h2>
-    <p>Label Easy may allow you to export labels in supported formats, such as image or PDF files, and prepare them for printing or sharing.</p>
-    <p>Printing results may vary depending on your device, printer, paper, printer settings, and other external factors.</p>
-    <p>We do not guarantee exact dimensions, colors, alignment, or printing results on every device or printer. You are responsible for checking the final output before using it for commercial or other important purposes.</p>
-
-    <h2>5. Advertisements</h2>
-    <p>Label Easy may display advertisements provided by third-party advertising services, including Google AdMob.</p>
-    <p>These services may collect or process certain information in accordance with their own privacy policies and applicable settings.</p>
-    <p>We do not control the content of all third-party advertisements, and the display of an advertisement does not constitute an endorsement of the advertised product or service.</p>
-
-    <h2>6. Privacy</h2>
-    <p>Your use of Label Easy is also governed by our Privacy Policy, which explains how information is handled within the application and through third-party services.</p>
-    <p>Please read our <a href="./index.html">Privacy Policy</a> for more information.</p>
-
-    <h2>7. Availability and Changes</h2>
-    <p>We may update, modify, suspend, or discontinue certain features of Label Easy at any time, when reasonably necessary, including for maintenance, security, technical, or legal reasons.</p>
-    <p>We do not guarantee that the application or all its features will always be available, uninterrupted, or error-free.</p>
-
-    <h2>8. Disclaimer of Warranties</h2>
-    <p>Label Easy is provided on an "as is" and "as available" basis, to the extent permitted by applicable law.</p>
-    <p>We make no guarantee that the application will meet every user's specific requirements or that it will operate without interruptions or errors.</p>
-
-    <h2>9. Limitation of Liability</h2>
-    <p>To the extent permitted by applicable law, Label Easy and its developer shall not be liable for indirect, incidental, special, or consequential damages arising from the use of, or inability to use, the application.</p>
-    <p>Nothing in these Terms excludes or limits liability where such exclusion or limitation is prohibited by applicable law, including mandatory consumer protection rights.</p>
-
-    <h2>10. Changes to These Terms</h2>
-    <p>We may revise these Terms and Conditions from time to time. Updated versions will be published on this page with a revised "Last updated" date.</p>
-    <p>Your continued use of Label Easy after changes become effective constitutes acceptance of the revised Terms, to the extent permitted by applicable law.</p>
-
-    <h2>11. Governing Law</h2>
-    <p>These Terms shall be interpreted in accordance with the applicable laws of Argentina, without prejudice to mandatory consumer protection provisions or other rights that may apply in your jurisdiction.</p>
-
-    <h2>12. Contact</h2>
-    <p>If you have questions about these Terms and Conditions, you can contact us at:</p>
-    <p><strong>Email:</strong> <a href="mailto:jogiovah@gmail.com">jogiovah@gmail.com</a></p>
-  `,
-
-  es: `
-    <h1>Términos y Condiciones</h1>
-    <p class="updated">Última actualización: 4 de noviembre de 2026</p>
-
-    <p>Bienvenido a Label Easy. Estos Términos y Condiciones regulan el uso de la aplicación móvil Label Easy. Al descargar, acceder o utilizar la aplicación, aceptas estos términos. Si no estás de acuerdo, te pedimos que no utilices la aplicación.</p>
-
-    <h2>1. Acerca de Label Easy</h2>
-    <p>Label Easy es una aplicación diseñada para ayudar a los usuarios a crear, personalizar, organizar y exportar etiquetas para uso personal o comercial.</p>
-    <p>La aplicación ofrece herramientas para diseñar etiquetas y prepararlas para imprimirlas o compartirlas.</p>
-
-    <h2>2. Uso permitido</h2>
-    <p>Te comprometes a utilizar Label Easy únicamente para fines legales y de acuerdo con estos Términos.</p>
-    <p>No debes utilizar la aplicación para crear o distribuir contenido ilegal, fraudulento, engañoso, difamatorio o que infrinja los derechos de terceros.</p>
-    <p>Eres responsable del contenido que crees, importes, exportes, imprimas o compartas mediante la aplicación.</p>
-
-    <h2>3. Contenido del usuario y propiedad intelectual</h2>
-    <p>Eres responsable de los textos, imágenes, diseños y demás contenido que crees o importes en Label Easy.</p>
-    <p>Debes asegurarte de contar con los derechos o permisos necesarios para utilizar contenido de terceros, incluidas imágenes, logotipos, marcas registradas y otros materiales protegidos.</p>
-    <p>Label Easy y su software original, diseño, marca y materiales asociados están protegidos por las leyes de propiedad intelectual aplicables. Estos Términos no te transfieren la propiedad de la aplicación ni de sus derechos de propiedad intelectual.</p>
-
-    <h2>4. Exportación, impresión y compatibilidad</h2>
-    <p>Label Easy puede permitirte exportar etiquetas en formatos compatibles, como archivos de imagen o PDF, y prepararlas para imprimirlas o compartirlas.</p>
-    <p>Los resultados de impresión pueden variar según el dispositivo, la impresora, el papel, la configuración de impresión y otros factores externos.</p>
-    <p>No garantizamos dimensiones, colores, alineación ni resultados de impresión exactos en todos los dispositivos o impresoras. Eres responsable de comprobar el resultado final antes de utilizarlo con fines comerciales u otros fines importantes.</p>
-
-    <h2>5. Publicidad</h2>
-    <p>Label Easy puede mostrar anuncios proporcionados por servicios publicitarios de terceros, incluido Google AdMob.</p>
-    <p>Estos servicios pueden recopilar o procesar determinada información de acuerdo con sus propias políticas de privacidad y configuraciones aplicables.</p>
-    <p>No controlamos el contenido de todos los anuncios de terceros. La aparición de un anuncio no constituye una recomendación ni aprobación del producto o servicio anunciado.</p>
-
-    <h2>6. Privacidad</h2>
-    <p>El uso de Label Easy también está sujeto a nuestra Política de Privacidad, que explica cómo se gestiona la información dentro de la aplicación y mediante servicios de terceros.</p>
-    <p>Consulta nuestra <a href="./index.html">Política de Privacidad</a> para obtener más información.</p>
-
-    <h2>7. Disponibilidad y modificaciones</h2>
-    <p>Podemos actualizar, modificar, suspender o discontinuar determinadas funciones de Label Easy cuando sea razonablemente necesario, por motivos de mantenimiento, seguridad, cuestiones técnicas o legales.</p>
-    <p>No garantizamos que la aplicación o todas sus funciones estén siempre disponibles, funcionen sin interrupciones o estén libres de errores.</p>
-
-    <h2>8. Exclusión de garantías</h2>
-    <p>Label Easy se proporciona "tal como está" y según su disponibilidad, en la medida permitida por la legislación aplicable.</p>
-    <p>No garantizamos que la aplicación satisfaga todos los requisitos específicos de cada usuario ni que funcione sin interrupciones o errores.</p>
-
-    <h2>9. Limitación de responsabilidad</h2>
-    <p>En la medida permitida por la legislación aplicable, Label Easy y su desarrollador no serán responsables de daños indirectos, incidentales, especiales o consecuentes derivados del uso o la imposibilidad de utilizar la aplicación.</p>
-    <p>Ninguna disposición de estos Términos excluye o limita responsabilidades cuando dicha exclusión o limitación esté prohibida por la legislación aplicable, incluidos los derechos obligatorios de protección al consumidor.</p>
-
-    <h2>10. Cambios en estos Términos</h2>
-    <p>Podemos modificar estos Términos y Condiciones periódicamente. Las versiones actualizadas se publicarán en esta página con una nueva fecha de actualización.</p>
-    <p>El uso continuado de Label Easy después de que los cambios entren en vigor implica la aceptación de los Términos revisados, en la medida permitida por la legislación aplicable.</p>
-
-    <h2>11. Legislación aplicable</h2>
-    <p>Estos Términos se interpretarán de acuerdo con las leyes aplicables de Argentina, sin perjuicio de las disposiciones obligatorias de protección al consumidor u otros derechos que puedan corresponder en tu jurisdicción.</p>
-
-    <h2>12. Contacto</h2>
-    <p>Si tienes preguntas sobre estos Términos y Condiciones, puedes comunicarte con nosotros a través de:</p>
-    <p><strong>Correo electrónico:</strong> <a href="mailto:jogiovah@gmail.com">jogiovah@gmail.com</a></p>
-  `
-};
-
-const languageSelector = document.getElementById("language");
-const content = document.getElementById("content");
-
-function setLanguage(language) {
-  content.innerHTML = translations[language];
-  document.documentElement.lang = language;
-  localStorage.setItem("labelEasyTermsLanguage", language);
-}
-
-const savedLanguage = localStorage.getItem("labelEasyTermsLanguage");
-
-languageSelector.value = savedLanguage === "es" ? "es" : "en";
-setLanguage(languageSelector.value);
-
-languageSelector.addEventListener("change", function() {
-  setLanguage(this.value);
-});
+  select.addEventListener("change", function () {
+    show(select.value);
+    history.replaceState(null, "", "#" + select.value);
+  });
+  window.addEventListener("hashchange", function () {
+    var lang = fromHash();
+    if (lang) show(lang);
+  });
+})();
 </script>
 
 </body>
